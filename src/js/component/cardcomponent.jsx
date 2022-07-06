@@ -10,3 +10,6 @@ const CardComponent = (props) =>
   </div>
 </div>
 }
+
+
+export default CardComponent;
