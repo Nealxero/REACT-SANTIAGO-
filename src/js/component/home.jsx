@@ -7,7 +7,7 @@ import CardComponent from "./cardcomponent.jsx"
 const Home = () => {
 	return ( <> <NavBar/>
 	<Jumbotron/>
-	<div className="row d-flex">
+	<div className="card-group mx-auto">
 	<CardComponent cardTitle={"Card Title"} cardText={"This is an example of test Ill use for the first card."} cardButton={"Find Out More!"}/>
 	<CardComponent cardTitle={"Card Title"} cardText={"In the next card I'll use some other words like Lorem Ipsum, again and again and again."} cardButton={"Find Out More!"}/>
 	<CardComponent cardTitle={"Card Title"} cardText={"Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"} cardButton={"Find Out More!"}/>
